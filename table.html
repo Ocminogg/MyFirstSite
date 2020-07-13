@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Таблицы</title>
+  </head>
+  <body>
+<!---------------------------------------------------->
+    <table border="1">
+      <tr><!-- строки таблицы <tr> (table row) -->
+        <th>Сотрудники отдела</th><!--Тегом <th> (table header) размечаются заголовочные ячейки -->
+        <th>Зарплата</th>
+        <th>Срок службы</th>
+      </tr>
+      <tr>
+        <td>Ебалбеков</td><!--ячейки строки <td> (table data) -->
+        <td>40000$</td>
+        <td>5 лет</td>
+      </tr>
+    </table>
+
+    <table>
+      <caption>Best music forever!</caption><!--caption Название таблицы-->
+  <!--<thead> - для заголовка,
+      <tbody> - основной контент таблицы,
+      <tfoot> - нижний колонтитул таблицы -->
+      <thead>
+        <tr>
+          <th>Исполнитель</th>
+          <th>Хит</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adele</td>
+          <td>Skyfull</td>
+        </tr>
+        <tr>
+          <td>Avicii</td>
+          <td>Wake me up</td>
+        </tr>
+        <tr>
+          <td>Макс Корж</td>
+          <td>Малый повзрослел</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>The Weeknd</td>
+          <td>Can't Fell My Face</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+<!---------------------------------------------------->
+<table border="1">
+  <tr>
+    <td>Первая ячейка</td>
+    <td>Вторая ячейка</td>
+    <td>Третья ячейка</td>
+  </tr>
+  <tr>
+    <td colspan="3">Единственная ячейка</td><!--colspan расстягивает столбец вправо -->
+  </tr>
+</table>
+<!---------------------------------------------------->
+<table border="1">
+  <tr>
+    <td rowspan="2">Левая ячейка</td>
+    <td>Средняя ячейка</td>
+    <td>Правая ячейка</td>
+  </tr>
+  <tr>
+    <td colspan="2">Нижняя ячейка</td>
+  </tr>
+</table>
